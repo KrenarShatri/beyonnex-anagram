@@ -39,4 +39,18 @@ public class Dictionary {
 
         return result;
     }
+
+    public static ArrayList<String> getAll() {
+        ArrayList<String> result = new ArrayList<>();
+
+        for (Map.Entry<String, HashSet<String>> entry : dictionary.entrySet()) {
+            String key = entry.getKey();
+            HashSet<String> value = entry.getValue();
+            value.remove(key);
+            result.add(key + " -> " + value);
+        }
+
+        return result;
+    }
+
 }

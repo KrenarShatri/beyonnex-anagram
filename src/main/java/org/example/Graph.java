@@ -58,6 +58,22 @@ public class Graph {
         return new ArrayList<>();
     }
 
+    public static ArrayList<String> getAll() {
+        ArrayList<String> result = new ArrayList<>();
+        HashSet<String> visited = new HashSet<>();
+
+        for (String s : nodes.keySet()) {
+            if (!visited.contains(s)) {
+                visited.add(s);
+                HashSet<String> allAnagramsForS = anagramsFor(s);
+                visited.addAll(allAnagramsForS);
+                result.add(s + " -> " + allAnagramsForS);
+            }
+        }
+
+        return result;
+    }
+
     public static HashSet<String> anagramsFor(String a) {
         HashSet<String> visited = new HashSet<>();
         HashSet<String> allAnagrams = new HashSet<>(DFS(a, visited));

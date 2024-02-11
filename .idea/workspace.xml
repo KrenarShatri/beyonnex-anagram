@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e22f0193-7fbd-48ef-b18f-ca0c006c27ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Anagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnagramsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DictionaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DictionaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.Tests in 'beyonnex-anagram.test'">
-    <configuration name="DictionaryTest.differentStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnagramsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -74,7 +76,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DictionaryTest.differentStrings&quot;" />
+            <option value="&quot;AnagramsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -85,7 +87,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTest.testAddPairHappyPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnagramsTest.addAnagram" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -98,7 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DictionaryTest.testAddPairHappyPath&quot;" />
+            <option value="&quot;AnagramsTest.addAnagram&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -109,7 +111,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnagramsTest.setStorageToGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GraphTest&quot;" />
+            <option value="&quot;AnagramsTest.setStorageToGraph&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -133,7 +135,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.testAddPairHappyPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnagramsTest.useDictionaryByDefault" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GraphTest.testAddPairHappyPath&quot;" />
+            <option value="&quot;AnagramsTest.useDictionaryByDefault&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Tests in 'beyonnex-anagram.test'" />
-        <item itemvalue="Gradle.GraphTest" />
-        <item itemvalue="Gradle.GraphTest.testAddPairHappyPath" />
-        <item itemvalue="Gradle.DictionaryTest.testAddPairHappyPath" />
-        <item itemvalue="Gradle.DictionaryTest.differentStrings" />
+        <item itemvalue="Gradle.AnagramsTest" />
+        <item itemvalue="Gradle.AnagramsTest.setStorageToGraph" />
+        <item itemvalue="Gradle.AnagramsTest.useDictionaryByDefault" />
+        <item itemvalue="Gradle.AnagramsTest.addAnagram" />
       </list>
     </recent_temporary>
   </component>
