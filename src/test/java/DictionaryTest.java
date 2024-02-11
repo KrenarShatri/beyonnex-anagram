@@ -1,6 +1,8 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.example.Anagrams;
 import org.example.Dictionary;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -10,8 +12,13 @@ import java.util.List;
 
 public class DictionaryTest {
 
+    @BeforeEach
+    void clear() {
+        Dictionary.reset();
+    }
+
     @Test
-    void testAddPairHappyPath() {
+    void happyPath() {
         Dictionary.add("abc", "cba");
         Dictionary.add("acb", "cab");
 

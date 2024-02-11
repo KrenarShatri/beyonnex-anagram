@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class AnagramsTest {
 
     @Test
-    void testAddPairHappyPath() {
+    void happyPath() {
         assertEquals(true, Anagrams.areAnagrams("aabb", "abab"));
     }
 
